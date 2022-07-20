@@ -5265,7 +5265,7 @@ a {
 .cid-tc76EIL0pN {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-image: url("../../../assets/images/mbr-1920x960.jpg");
+  background-color: #f8f7f3;
 }
 .cid-tc76EIL0pN .mbr-iconfont {
   display: block;
@@ -5302,7 +5302,7 @@ a {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
 }
 .cid-tc76EIL0pN .card-wrapper:hover {
-  background: #ffffff;
+  background: #c8f5fc;
 }
 .cid-tc76EIL0pN .card-title,
 .cid-tc76EIL0pN .card-box {
@@ -5316,49 +5316,49 @@ a {
 .cid-tc76EIL0pN .card-text {
   color: #353535;
 }
-.cid-tc79TrYlvz {
-  padding-top: 4rem;
+.cid-tc8EqMJv4e {
+  padding-top: 1rem;
   padding-bottom: 4rem;
   background-image: url("../../../assets/images/mbr-1920x960.jpg");
 }
-.cid-tc79TrYlvz .title_block {
+.cid-tc8EqMJv4e .title_block {
   margin-bottom: 50px;
 }
-.cid-tc79TrYlvz .mbr-section-subtitle {
+.cid-tc8EqMJv4e .mbr-section-subtitle {
   margin-bottom: 16px;
   color: #ffffff;
   letter-spacing: 1.6px;
   line-height: 1;
   font-weight: 600;
 }
-.cid-tc79TrYlvz .mbr-section-title {
+.cid-tc8EqMJv4e .mbr-section-title {
   color: #ffffff;
 }
-.cid-tc79TrYlvz .item:nth-child(1) .iconfont-wrapper {
+.cid-tc8EqMJv4e .item:nth-child(1) .iconfont-wrapper {
   box-shadow: 0px 14px 30px 0px rgba(225, 150, 95, 0.4);
   background-image: linear-gradient(40deg, #e1965f 0%, #f1ceb5 100%);
 }
-.cid-tc79TrYlvz .item:nth-child(2) .iconfont-wrapper {
+.cid-tc8EqMJv4e .item:nth-child(2) .iconfont-wrapper {
   box-shadow: 0px 14px 30px 0px rgba(163, 132, 130, 0.4);
   background-image: linear-gradient(40deg, #a38482 0%, #cebebd 100%);
 }
-.cid-tc79TrYlvz .item:nth-child(3) .iconfont-wrapper {
+.cid-tc8EqMJv4e .item:nth-child(3) .iconfont-wrapper {
   box-shadow: 0px 14px 30px 0px rgba(255, 192, 146, 0.4);
   background-image: linear-gradient(40deg, #ffc092 0%, #fffbf8 100%);
 }
-.cid-tc79TrYlvz .item:nth-child(4) .iconfont-wrapper {
+.cid-tc8EqMJv4e .item:nth-child(4) .iconfont-wrapper {
   box-shadow: 0px 14px 30px 0px rgba(156, 82, 27, 0.4);
   background-image: linear-gradient(40deg, #9c521b 0%, #de833f 100%);
 }
-.cid-tc79TrYlvz .item:nth-child(5) .iconfont-wrapper {
+.cid-tc8EqMJv4e .item:nth-child(5) .iconfont-wrapper {
   box-shadow: 0px 14px 30px 0px rgba(0, 37, 73, 0.4);
   background-image: linear-gradient(40deg, #002549 0%, #0059af 100%);
 }
-.cid-tc79TrYlvz .item:nth-child(6) .iconfont-wrapper {
+.cid-tc8EqMJv4e .item:nth-child(6) .iconfont-wrapper {
   box-shadow: 0px 14px 30px 0px rgba(170, 167, 151, 0.4);
   background-image: linear-gradient(40deg, #aaa797 0%, #d8d6cf 100%);
 }
-.cid-tc79TrYlvz .iconfont-wrapper {
+.cid-tc8EqMJv4e .iconfont-wrapper {
   left: 50%;
   top: -35px;
   width: 70px;
@@ -5368,12 +5368,12 @@ a {
   border-radius: 50%;
   transform: translateX(-50%);
 }
-.cid-tc79TrYlvz .iconfont-wrapper .mbr-iconfont {
+.cid-tc8EqMJv4e .iconfont-wrapper .mbr-iconfont {
   color: #ffffff;
   font-size: 34px;
   line-height: 70px;
 }
-.cid-tc79TrYlvz .card_wrap {
+.cid-tc8EqMJv4e .card_wrap {
   padding: 45px;
   padding-top: 65px;
   margin-top: 60px;
@@ -5384,18 +5384,18 @@ a {
   text-align: center;
   transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.cid-tc79TrYlvz .card_wrap:hover {
+.cid-tc8EqMJv4e .card_wrap:hover {
   transform: translateY(-16px);
 }
-.cid-tc79TrYlvz .card_title {
+.cid-tc8EqMJv4e .card_title {
   margin-bottom: 20px;
   color: #004383;
 }
 @media (max-width: 991px) {
-  .cid-tc79TrYlvz .title_block {
+  .cid-tc8EqMJv4e .title_block {
     margin-bottom: 30px;
   }
-  .cid-tc79TrYlvz .card_wrap {
+  .cid-tc8EqMJv4e .card_wrap {
     padding: 35px;
     padding-top: 65px;
   }
@@ -5548,37 +5548,4 @@ a {
 }
 .cid-tc76zkzqkb .text2 {
   color: #ffffff;
-}
-.cid-tc77RgP8FZ {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #ffffff;
-  position: relative;
-  overflow: hidden;
-}
-.cid-tc77RgP8FZ svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scale(1.8, 1.8);
-}
-.cid-tc77RgP8FZ H1 {
-  color: #57468b;
-}
-.cid-tc77RgP8FZ .mbr-text,
-.cid-tc77RgP8FZ .mbr-section-btn {
-  color: #716c80;
-}
-.cid-tc77RgP8FZ #e1_ellipse {
-  fill: #e1e8ff !important;
-}
-.cid-tc77RgP8FZ img {
-  width: 80%;
-  border-radius: 10px;
-  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
-}
-@media (max-width: 576px) {
-  .cid-tc77RgP8FZ img {
-    width: 100%;
-  }
 }
