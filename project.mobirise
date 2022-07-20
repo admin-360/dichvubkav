@@ -1102,7 +1102,7 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "Phần mềm hợp đồng điện tử Bkav - Giải pháp chuyển đổi hợp đồng giấy lên điện tử&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Đăng ký</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">0976826807</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Đăng ký</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">0976826807</a>",
                 "overlayColor": "#000000"
               },
               {
@@ -1122,7 +1122,7 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "Phần mềm hóa đơn điện tử - dễ sử dụng",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Đăng ký</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">0976826807</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Đăng ký</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">0976826807</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/chu-ky-so-bkav-ca-512x250.jpg",
@@ -1141,7 +1141,7 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "Sản phẩm công nghệ chủ lực - Dịch vụ chữ ký số tốt nhất do Hiệp hội An Toàn Thông Tin VNISA Chứng nhận",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Đăng ký</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">0976826807</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Đăng ký</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">0976826807</a>"
               }
             ]
           }
