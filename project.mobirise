@@ -47,7 +47,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 96,
+    "uniqCompNum": 97,
     "versionPublish": "5.6.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/ca-logo.svg",
@@ -3692,7 +3692,7 @@
               "color": "#353535"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Hover\" name=\"cardColor\" value=\"#ffffff\">\n        <input type=\"range\" title=\"Count\" name=\"cardsAmount\" min=\"1\" max=\"8\" step=\"1\" value=\"8\">\n        <header>Color</header>\n        <input type=\"color\" name=\"icon\" title=\"Icons\" value=\"#8364e2\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x960.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#c8f5fc\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 title-col pb-5\" mbr-if=\"showmainTitle\">\n                <h2 class=\"main-title align-center mbr-black m-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".main-title, .title-col\"><b>Vì sao sử dụng eHoadon Bkav</b></h2>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mbri-cash\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Giá cả hợp lý</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Tham khảo bản giá về hóa đơn điện tử Bkav&nbsp;<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mbri-touch\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Đơn giản - Dễ sử dụng</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Không cần cài đặt, chạy trên web,...</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Thương hiệu uy tín</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Top 10 thương hiệu CNTT của Việt Nam<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-setting mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Bảo mật dữ liệu</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Do tập đoàn An Ninh Mang Bkav phát triển</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-layers mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Đáp ứng đầy đủ nghiệp vụ</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Phần mềm được đăng ký với bộ công thương về thương hiệu và bản quyền và tính pháp lý của phần mềm<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mbri-home\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Đáp ứng mọi Doanh nghiệp</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Tất cả các Doanh nghiệp như: Thương mại, dịch vụ, sản xuất, kinh doanh....đều có thể sử dụng eContract</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-layers mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Dễ dàng tích hợp</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Dẽ dàng tích hợp với một số phần mềm khách như: Phần mềm kế toán, phần mềm bán hàng....</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 7\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-viber socicon\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Hỗ trợ 24/7&nbsp;</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Hỗ trợ người dùng đa kênh: Facebook, Zalo, Email, Phone, Skype, Chat online....<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 8\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-layers mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Wallets</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".card-text\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\n                            eiusmod tempor incididunt.<br></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Hover\" name=\"cardColor\" value=\"#ffffff\">\n        <input type=\"range\" title=\"Count\" name=\"cardsAmount\" min=\"1\" max=\"8\" step=\"1\" value=\"8\">\n        <header>Color</header>\n        <input type=\"color\" name=\"icon\" title=\"Icons\" value=\"#8364e2\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x960.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#c8f5fc\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 title-col pb-5\" mbr-if=\"showmainTitle\">\n                <h2 class=\"main-title align-center mbr-black m-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".main-title, .title-col\"><b>Vì sao sử dụng eHoadon Bkav</b></h2>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mbri-cash\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Giá cả hợp lý</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Tham khảo bản giá về hóa đơn điện tử Bkav&nbsp;<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mbri-touch\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Đơn giản - Dễ sử dụng</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Không cần cài đặt, chạy trên web,...</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Thương hiệu uy tín</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Top 10 thương hiệu CNTT của Việt Nam<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-setting mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Bảo mật dữ liệu</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Do tập đoàn An Ninh Mang Bkav phát triển</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-layers mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Đáp ứng đầy đủ nghiệp vụ</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Phần mềm được đăng ký với bộ công thương về thương hiệu và bản quyền và tính pháp lý của phần mềm<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mbri-home\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Đáp ứng mọi Doanh nghiệp</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Tất cả các Doanh nghiệp như: Thương mại, dịch vụ, sản xuất, kinh doanh....đều có thể sử dụng hóa đơn điện tử&nbsp;</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-layers mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Dễ dàng tích hợp</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Dẽ dàng tích hợp với một số phần mềm khách như: Phần mềm kế toán, phần mềm bán hàng....</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 7\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-viber socicon\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Hỗ trợ 24/7&nbsp;</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Hỗ trợ người dùng đa kênh: Facebook, Zalo, Email, Phone, Skype, Chat online....<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 8\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-layers mobi-mbri\"></span>\n                        <h4 class=\"card-title align-left mbr-black mb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Wallets</b></h4>\n                        <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".card-text\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\n                            eiusmod tempor incididunt.<br></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "features014-16",
@@ -3706,277 +3706,249 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "overflow": "hidden",
-            "box-sizing": "border-box",
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
             },
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
+            ".container": {
+              "max-width": "1312px"
             },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
+            "img, .item-img": {
+              "transition": "transform 3s, filter 0.5s",
+              "overflow": "hidden",
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 112px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 112px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 112px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 112px)",
+                  "object-fit": "cover"
+                }
+              }
             },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
+            ".img-filter": {
               "position": "absolute",
               "left": "0",
               "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "@overlayColor1",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradientOverlay)": {
-                "background": "linear-gradient(180deg, @overlayColor1, @overlayColor2)"
-              }
-            },
-            ".icon-focus, .icon-video": {
-              "font-size": "2rem !important",
-              "width": "50px",
-              "height": "50px",
-              "top": "~\"calc(50% - 25px)\"",
-              "left": "~\"calc(50% - 25px)\"",
-              "&:before": {
-                "content": "'+'",
-                "border-radius": "100px",
-                "background": "rgba(0, 0, 0, 0.5)",
-                "width": "100%",
-                "height": "100%",
-                "padding-bottom": "6px",
-                "display": "flex",
-                "-webkit-align-items": "center",
-                "align-items": "center",
-                "-webkit-justify-content": "center",
-                "justify-content": "center"
-              }
-            },
-            ".icon-video": {
-              "font-size": "1.5rem !important"
-            },
-            ".mbr-gallery-title": {
-              "transition": "all 0.5s ease",
-              "position": "absolute",
-              "text-align": "left",
-              "display": "none",
-              "width": "100%",
-              "bottom": "0",
               "right": "0",
-              "padding": "1rem",
-              "font-weight": "bold",
-              "background": "transparent",
-              "-webkit-transition": "all 0.5s ease",
-              "-moz-transition": "all 0.5s ease",
-              "-o-transition": "all 0.5s ease",
-              "-ms-transition": "all 0.5s ease"
+              "bottom": "0",
+              "z-index": "-1",
+              "background-color": "#7F5F5D",
+              "opacity": "0",
+              "transition": "0.5s all",
+              "pointer-events": "none"
             },
-            "ul": {
-              "font-size": "0"
+            ".item:focus, span:focus": {
+              "outline": "none"
             },
-            ".mbr-gallery-filter ul": {
-              "text-align": "left"
+            ".item-wrapper": {
+              "position": "relative"
             },
-            ".mbr-gallery-filter ul li": {
-              ".btn": {
-                "position": "relative",
-                "padding": "0.5rem 1rem 0.6rem !important",
-                "margin": "0!important",
-                "background-color": "transparent !important",
-                "border-width": "0 !important",
-                "color": "@tagsColor !important",
-                "&:after": {
-                  "content": "\"\"",
-                  "position": "absolute",
-                  "left": "0",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "border": "1px solid transparent",
-                  "border-radius": "100px",
-                  "opacity": "0.5"
+            ".slide-content": {
+              "position": "relative",
+              "background": "@cardsBg",
+              "height": "100%",
+              "display": "flex",
+              "overflow": "hidden",
+              "flex-flow": "column nowrap",
+              "&:hover": {
+                ".img-filter": {
+                  "opacity": "0.6",
+                  "z-index": "1"
+                },
+                "img": {
+                  "transform": "scale3d(1.2, 1.2, 1)",
+                  "filter": "saturate(0)"
                 }
               },
-              "&:not(.active) .btn:hover:after, &.active .btn:after": {
-                "border-color": "@tagsColor"
+              ".item-content": {
+                "display": "grid",
+                "justify-items": "start",
+                "grid-auto-columns": "1fr",
+                "grid-column-gap": "0px",
+                "grid-row-gap": "1.25rem",
+                "-ms-grid-columns": "1fr",
+                "grid-template-columns": "1fr",
+                "-ms-grid-rows": "auto auto",
+                "grid-template-rows": "auto auto"
               },
-              ".btn:hover:after": {
-                "-webkit-animation": "1s btn-animation linear infinite",
-                "animation": "1s btn-animation linear infinite"
+              "& when (@showButtons)": {
+                ".item-content": {
+                  "padding": "1.5rem 1.5rem 0"
+                },
+                ".item-footer": {
+                  "padding": "0 1.5rem 0.9rem"
+                }
               },
-              ".btn:not(:hover):after": {
-                "animation": "none"
-              },
-              "padding": "0",
-              "margin": "0 .2rem",
-              "&:first-child, &:last-child": {
-                "margin": "0"
+              "& when not (@showButtons)": {
+                ".item-content": {
+                  "padding": "1.5rem"
+                }
               }
             },
-            ".mbr-gallery-item > div:hover": {
-              ".mbr-gallery-title": {
-                "display": "block"
-              },
-              "&:before": {
-                "opacity": "@overlayOpacityItem !important"
-              }
+            ".mbr-section-btn": {
+              "margin-top": "auto !important",
+              "padding-top": "0.9rem !important"
             },
-            "@keyframes btn-animation": {
-              "0%": {
-                "-webkit-transform": "scale(1)",
-                "transform": "scale(1)"
-              },
-              "100%": {
-                "-webkit-transform": "scale(1.3)",
-                "transform": "scale(1.3)",
-                "opacity": "0"
-              }
+            ".mbr-section-head": {
+              "margin-bottom": "3.25rem"
             },
-            ".mbr-section-tag": {
-              "color": "#9e9e9e",
-              "margin-bottom": "0.4375rem"
+            ".section-title-container": {
+              "& when (@showTitleButtons)": {
+                "display": "flex",
+                "justify-content": "space-between",
+                "align-items": "center"
+              },
+              ".btn": {
+                "padding": "0.75rem 2.5rem"
+              },
+              ".btn-info-outline": {
+                "&:hover": {
+                  "background-color": "#f0edeb !important"
+                }
+              }
             },
             ".mbr-section-title": {
-              "margin-bottom": "1rem",
-              "& when (@secondColorTitle)": {
-                "b:last-child, strong:last-child": {
-                  "color": "@secondColor"
-                }
+              "color": "#002549"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#002549"
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "width": "100%"
+            },
+            ".item-title-container": {
+              "width": "100%"
+            },
+            ".item-title": {
+              "color": "#002549",
+              "width": "100%",
+              "max-width": "100%",
+              "span": {
+                "background-color": "#ffffff",
+                "padding-right": "1rem",
+                "padding-left": "1rem",
+                "border-radius": "2em",
+                "line-height": "inherit",
+                "font-size": "inherit"
               }
             },
-            ".mbr-gallery-filter": {
-              "padding-left": "0",
-              "padding-right": "0"
+            ".item-subtitle": {
+              "color": "#ffffff",
+              "width": "100%"
             },
-            ".mbr-gallery-filter ul li .btn:after": {
-              "transform": "none !important"
+            ".embla__slide": {
+              "display": "flex",
+              "justify-content": "center",
+              "position": "relative",
+              "min-width": "405px",
+              "max-width": "405px",
+              "@media (max-width: 768px)": {
+                "min-width": "70%",
+                "max-width": "initial",
+                "margin-left": "1rem !important",
+                "margin-right": "1rem !important"
+              }
+            },
+            ".embla__button--next, .embla__button--prev": {
+              "display": "flex"
+            },
+            ".embla__button-container": {
+              "display": "flex",
+              "flex-wrap": "nowrap",
+              "width": "144px",
+              "margin-left": "auto",
+              "margin-right": "1rem",
+              "padding-top": "3rem",
+              "@media (max-width: 768px)": {
+                "margin-right": "auto"
+              }
+            },
+            ".embla__button": {
+              "display": "flex",
+              "width": "64px",
+              "height": "64px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "transparent",
+              "color": "@primaryColor",
+              "border": "1px solid @primaryColor",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "justify-content": "center",
+              "align-items": "center",
+              "& when not (@arrows)": {
+                "display": "none"
+              },
+              "& when not (@arrowsMobile)": {
+                "@media (max-width: 768px)": {
+                  "display": "none"
+                }
+              },
+              "&:disabled": {
+                "cursor": "default",
+                "display": "none"
+              },
+              "&.embla__button--prev": {
+                "margin-right": "auto"
+              },
+              "&.embla__button--next": {
+                "margin-left": "auto"
+              }
+            },
+            ".embla": {
+              "position": "relative",
+              "width": "100%"
+            },
+            ".embla__viewport": {
+              "overflow": "hidden",
+              "width": "100%"
+            },
+            ".embla__viewport.is-draggable": {
+              "cursor": "grab"
+            },
+            ".embla__viewport.is-dragging": {
+              "cursor": "grabbing"
+            },
+            ".embla__container": {
+              "display": "flex",
+              "user-select": "none",
+              "-webkit-touch-callout": "none",
+              "-khtml-user-select": "none",
+              "-webkit-tap-highlight-color": "transparent"
             }
           },
-          "_name": "gallery1",
-          "_sourceTheme": "successm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel gallery1\" group=\"Sliders & Galleries\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width Gallery\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Show Tag\" name=\"showTag\">        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n          <input type=\"checkbox\" title=\"Second Color Title\" name=\"secondColorTitle\" checked condition=\"showTitle\">\n          <input type=\"color\" title=\"Second Color Title\" value=\"#f23801\" name=\"secondColor\" selected condition=\"secondColorTitle && showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Items</header>\n        <input type=\"color\" title=\"Items Overlay Color 1\" name=\"overlayColor1\" value=\"#f23801\">\n        <input type=\"checkbox\" title=\"Items Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Items Overlay Color 2\" name=\"overlayColor2\" value=\"#001326\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#f23801\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n  \n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h3 class=\"mbr-section-tag mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTag\" data-app-selector=\".mbr-section-tag\">LOREM</h3>        \n        <h2 class=\"align-left mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.mbr-gallery-filter ul\" mbr-class=\"{'pb-4':!gallery__filter}\"><b>Gallery</b><b> With Tabs</b></h2>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><i>Lorem Ipsum Dolor Sit Amet</i></h3>\n    </div> \n  \n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-bullets mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n  </section>",
-          "_anchor": "gallery1-2n",
-          "_isUserblock": true,
-          "_cid": "tcbXGqBAv3",
-          "_protectedParams": [
-            "text_all",
-            "gallery__filtersTextStyle",
-            "gallery__filtersBtnStyle",
-            "gallery"
-          ],
+          "_name": "slider1",
+          "_sourceTheme": "edgem5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1 mbr-embla\" group=\"Sliders & Galleries\" plugins=\"embla\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showTitleButtons\" title=\"Title Button\" checked condition=\"showTitle\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n        <input type=\"checkbox\" name=\"arrows\" title=\"Arrows\">\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"2\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Label\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Time\">\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#002549\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"position-relative\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n                    <div class=\"section-title-container\" mbr-if=\"showTitle\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                            Tin tức</h4>\n                        <div class=\"btn-container\" mbr-if=\"showTitleButtons\">\n                            <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" data-toolbar=\"-mbrBtnMove\">\n                                <a class=\"btn btn-info-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">See all</a>\n                            </div>\n                        </div>\n                    </div>\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>\n                </div>\n            </div>\n        </div>\n        <div class=\"embla\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"center\" data-contain-scroll=\"trimSnaps\">\n            <div class=\"embla__viewport\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n                <div class=\"embla__container\">\n                    <div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/untitled-687x458.png\" alt title data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                                    <div class=\"img-filter\"></div>\n                                </div>\n                            </div>\n                            <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText\">\n                                <div class=\"item-title-container\" mbr-if=\"showCardTitle\">\n                                    <p class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\"><span>Bkav ehoadon</span></p>\n                                </div>\n                                <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .item-footer\" mbr-if=\"showCardSubtitle\">Bkav nhận Giấy khen thành tích xuất sắc triển khai hóa đơn điện tử</p>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">6 min read</p>\n                            </div>\n                            <div class=\"mbr-section-btn item-footer mb-0\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More &gt;</a></div>\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/1a-800x533.jpg\" alt title data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                                    <div class=\"img-filter\"></div>\n                                </div>\n                            </div>\n                            <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText\">\n                                <div class=\"item-title-container\" mbr-if=\"showCardTitle\">\n                                    <p class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\"><span>Bkav ehoadon</span></p>\n                                </div>\n                                <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .item-footer\" mbr-if=\"showCardSubtitle\">Đã có gần 92,6% tổng số doanh nghiệp đăng ký chuyển đổi HĐĐT</p>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">7 min read</p>\n                            </div>\n                            <div class=\"mbr-section-btn item-footer mb-0\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More &gt;</a></div>\n                        </div>\n                    </div>\n                    \n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/su-kien-thai-nguyen-1-800x481.jpg\" alt title>\n                                    <div class=\"img-filter\"></div>\n                                </div>\n                            </div>\n                            <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText\">\n                                <div class=\"item-title-container\" mbr-if=\"showCardTitle\">\n                                    <p class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\"><span>Bkav CA</span></p>\n                                </div>\n                                <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .item-footer\" mbr-if=\"showCardSubtitle\">Thái Nguyên tích hợp giải pháp ký số từ xa vào cổng dịch vụ công</p>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">5 min read</p>\n                            </div>\n                            <div class=\"mbr-section-btn item-footer mb-0\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More &gt;</a></div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/quang-canh20220617074238.6615720-1024x683.jpg\" alt title>\n                                    <div class=\"img-filter\"></div>\n                                </div>\n                            </div>\n                            <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText\">\n                                <div class=\"item-title-container\" mbr-if=\"showCardTitle\">\n                                    <p class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\"><span>Bkav eContract</span></p>\n                                </div>\n                                <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .item-footer\" mbr-if=\"showCardSubtitle\">Hội nghị Phát triển hợp đồng điện tử tại Việt Nam<br></p>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">6 min read</p>\n                            </div>\n                            <div class=\"mbr-section-btn item-footer mb-0\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More &gt;</a></div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/dn-5-1280x551.jpg\" alt title>\n                                    <div class=\"img-filter\"></div>\n                                </div>\n                            </div>\n                            <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText\">\n                                <div class=\"item-title-container\" mbr-if=\"showCardTitle\">\n                                    <p class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\"><span>Bkav ehoadon</span></p>\n                                </div>\n                                <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .item-footer\" mbr-if=\"showCardSubtitle\">Tập huấn Hóa đơn điện tử cho 3.000 doanh nghiệp, hộ kinh doanh tại Đà Nẵng</p>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">8 min read</p>\n                            </div>\n                            <div class=\"mbr-section-btn item-footer mb-0\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More &gt;</a></div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/remote-687x467.jpg\" alt title>\n                                    <div class=\"img-filter\"></div>\n                                </div>\n                            </div>\n                            <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText\">\n                                <div class=\"item-title-container\" mbr-if=\"showCardTitle\">\n                                    <p class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\"><span>Bkav ehoadon</span></p>\n                                </div>\n                                <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .item-footer\" mbr-if=\"showCardSubtitle\">Bkav được cấp phép cung cấp dịch vụ chữ ký số từ xa  </p>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">5 min read</p>\n                            </div>\n                            <div class=\"mbr-section-btn item-footer mb-0\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://ehoadonbkav.com/bkav-duoc-cap-phep-cung-cap-dich-vu-chu-ky-so-tu-xa-d435512/\" class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More &gt;</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"container\">\n                <div class=\"embla__button-container\">\n                    <button class=\"embla__button embla__button--prev\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-prev mbr-iconfont\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only visually-hidden visually-hidden\">Previous</span>\n                    </button>\n                    <button class=\"embla__button embla__button--next\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only visually-hidden visually-hidden\">Next</span>\n                    </button>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tcc2cBif1m",
+          "_anchor": "slider1-2o",
+          "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {
-            "text_all": "All",
-            "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-primary-outline",
-            "gallery": [
-              {
-                "tags": "Chuyển đổi số",
-                "videoPreview": "@ADDONS_PATH@/successm4/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/cds-sme-394x209.png",
-                "thumb": "@PROJECT_PATH@/assets/images/cds-sme-394x209-394x209.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Chuyển đổi số SME<br>",
-                "active": false
-              },
-              {
-                "tags": "Chuyển đổi số",
-                "videoPreview": "@ADDONS_PATH@/successm4/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/cds-enterprise-394x209.png",
-                "thumb": "@PROJECT_PATH@/assets/images/cds-enterprise-394x209-394x209.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Chuyển đổi số Enterprise",
-                "active": false
-              },
-              {
-                "tags": "Chuyển đổi số",
-                "videoPreview": "@ADDONS_PATH@/successm4/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/cds-gov-394x209.png",
-                "thumb": "@PROJECT_PATH@/assets/images/cds-gov-394x209-394x209.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Chuyển đổi số GOV",
-                "active": false
-              },
-              {
-                "tags": "An ninh mạng",
-                "videoPreview": "@ADDONS_PATH@/successm4/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/giai-phap-anm-394x209.png",
-                "thumb": "@PROJECT_PATH@/assets/images/giai-phap-anm-394x209-394x209.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Giải pháp an ninh mạng",
-                "active": false
-              },
-              {
-                "tags": "An ninh mạng",
-                "videoPreview": "@ADDONS_PATH@/successm4/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dich-vu-anm-394x209.png",
-                "thumb": "@PROJECT_PATH@/assets/images/dich-vu-anm-394x209-394x209.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Dịch vụ an ninh mạng<br>",
-                "active": false
-              },
-              {
-                "tags": "An ninh mạng",
-                "videoPreview": "@ADDONS_PATH@/successm4/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dao-tao-anm-394x209.png",
-                "thumb": "@PROJECT_PATH@/assets/images/dao-tao-anm-394x209-394x209.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Đào tạo an ninh mạng<br>",
-                "active": false
-              },
-              {
-                "tags": "Bkav eHoadon",
-                "videoPreview": "@ADDONS_PATH@/successm4/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/untitled-687x458.png",
-                "thumb": "@PROJECT_PATH@/assets/images/untitled-687x458-687x458.png",
-                "alt": "https://ehoadonbkav.com/bkav-nhan-giay-khen-thanh-tich-xuat-sac-trien-khai-hoa-don-dien-tu-d435513/",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<a href=\"https://ehoadonbkav.com/bkav-nhan-giay-khen-thanh-tich-xuat-sac-trien-khai-hoa-don-dien-tu-d435513/\" class=\"text-primary\" target=\"_blank\">Bkav nhận Giấy khen thành tích xuất sắc triển khai hóa đơn điện tử</a><br>",
-                "active": true
-              }
-            ]
-          }
+          "_params": {}
         },
         {
           "_styles": {
