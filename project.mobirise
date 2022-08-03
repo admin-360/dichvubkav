@@ -58,7 +58,7 @@
     "siteUrl": "https://dichvubkav.com/",
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "mcShopcart": {
       "checkoutLabelButton": "Add to Cart              "
     },
