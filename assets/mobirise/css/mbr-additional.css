@@ -938,7 +938,10 @@ blockquote {
 .dropdown-item:hover + .dropdown-menu,
 .dropdown-menu:hover {
   display: block;
-}body {
+}.btn {
+  border-width: 2px;
+}
+body {
   font-family: 'Darker Grotesque', sans-serif;
 }
 .display-1 {
@@ -1230,7 +1233,7 @@ blockquote {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #e1965f;
   color: #e1965f;
 }
 .btn-primary-outline:hover,
@@ -1239,7 +1242,7 @@ blockquote {
 .btn-primary-outline.active {
   color: #c46825 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #c46825 !important;
   box-shadow: none!important;
 }
 .btn-primary-outline.disabled,
@@ -1251,7 +1254,7 @@ blockquote {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #aaa797;
   color: #aaa797;
 }
 .btn-secondary-outline:hover,
@@ -1260,7 +1263,7 @@ blockquote {
 .btn-secondary-outline.active {
   color: #817d69 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #817d69 !important;
   box-shadow: none!important;
 }
 .btn-secondary-outline.disabled,
@@ -1272,7 +1275,7 @@ blockquote {
 .btn-info-outline,
 .btn-info-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #002549;
   color: #002549;
 }
 .btn-info-outline:hover,
@@ -1281,7 +1284,7 @@ blockquote {
 .btn-info-outline.active {
   color: #000000 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #000000 !important;
   box-shadow: none!important;
 }
 .btn-info-outline.disabled,
@@ -1293,7 +1296,7 @@ blockquote {
 .btn-success-outline,
 .btn-success-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #a38482;
   color: #a38482;
 }
 .btn-success-outline:hover,
@@ -1302,7 +1305,7 @@ blockquote {
 .btn-success-outline.active {
   color: #775957 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #775957 !important;
   box-shadow: none!important;
 }
 .btn-success-outline.disabled,
@@ -1314,7 +1317,7 @@ blockquote {
 .btn-warning-outline,
 .btn-warning-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #ffc092;
   color: #ffc092;
 }
 .btn-warning-outline:hover,
@@ -1323,7 +1326,7 @@ blockquote {
 .btn-warning-outline.active {
   color: #ff8e3b !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #ff8e3b !important;
   box-shadow: none!important;
 }
 .btn-warning-outline.disabled,
@@ -1335,7 +1338,7 @@ blockquote {
 .btn-danger-outline,
 .btn-danger-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #9c521b;
   color: #9c521b;
 }
 .btn-danger-outline:hover,
@@ -1344,7 +1347,7 @@ blockquote {
 .btn-danger-outline.active {
   color: #522b0e !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #522b0e !important;
   box-shadow: none!important;
 }
 .btn-danger-outline.disabled,
@@ -1356,7 +1359,7 @@ blockquote {
 .btn-black-outline,
 .btn-black-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #232323;
   color: #232323;
 }
 .btn-black-outline:hover,
@@ -1365,7 +1368,7 @@ blockquote {
 .btn-black-outline.active {
   color: #000000 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #000000 !important;
   box-shadow: none!important;
 }
 .btn-black-outline.disabled,
@@ -1377,7 +1380,7 @@ blockquote {
 .btn-white-outline,
 .btn-white-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #fafafa;
   color: #fafafa;
 }
 .btn-white-outline:hover,
@@ -1386,7 +1389,7 @@ blockquote {
 .btn-white-outline.active {
   color: #cfcfcf !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #cfcfcf !important;
   box-shadow: none!important;
 }
 .btn-white-outline.disabled,
@@ -1460,17 +1463,12 @@ a.text-black.active {
   color: #000000 !important;
 }
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+  transition: 0.2s;
   position: relative;
-  background-image: transparent;
+  background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-size: 10000px 2px;
   background-repeat: no-repeat;
-  background-position: 0px 1.2em;
-  background-position: -10000px 1.2em;
-}
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
-  transition: background-position 2s ease-in-out;
-  background-image: linear-gradient(currentColor 50%, currentColor 50%);
-  background-position: 0px 1.2em;
+  background-position: 0 1.2em;
 }
 .nav-tabs .nav-link.active {
   color: #e1965f;
@@ -1490,6 +1488,12 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .alert-danger {
   background-color: #9c521b;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #e1965f;
   border-color: #e1965f;
@@ -1497,6 +1501,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -1523,8 +1530,8 @@ a:hover {
   color: #e29155;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Darker Grotesque', sans-serif;
@@ -1553,6 +1560,19 @@ blockquote {
   border-color: #e1965f;
 }
 /* Forms */
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #e1965f;
