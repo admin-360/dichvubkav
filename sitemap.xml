@@ -1,8 +1,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://dichvubkav.com/index.html</loc>
-	</url>
-	<url>
 		<loc>https://dichvubkav.com/econtract.html</loc>
 	</url>
 	<url>
@@ -43,5 +40,8 @@
 	</url>
 	<url>
 		<loc>https://dichvubkav.com/tai-ung-dung.html</loc>
+	</url>
+	<url>
+		<loc>https://dichvubkav.com/index.html</loc>
 	</url>
 </urlset>
