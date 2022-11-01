@@ -1948,6 +1948,295 @@ a {
   margin-bottom: 0.35rem;
   transform: rotateZ(0);
 }
+.cid-tlV6fft9HM {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+  z-index: 1;
+}
+.cid-tlV6fft9HM .card-box {
+  padding: 0rem;
+  height: 110px;
+}
+.cid-tlV6fft9HM .card {
+  max-width: 100%;
+}
+.cid-tlV6fft9HM .icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+}
+.cid-tlV6fft9HM .wrapper {
+  width: 100%;
+  display: flex;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cid-tlV6fft9HM .row {
+  background: #f8f8f8;
+  position: relative;
+  z-index: 0;
+  padding: 4rem 0;
+  border-radius: 8px;
+}
+@media (max-width: 767px) {
+  .cid-tlV6fft9HM .row {
+    margin: 0rem;
+  }
+}
+.cid-tlV6fft9HM .card-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.cid-tlV6fft9HM .card-wrapper:before {
+  content: '';
+  width: 2rem;
+  height: 2px;
+  background: #1c1c25;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  z-index: -1;
+}
+.cid-tlV6fft9HM .card-wrapper:after {
+  content: '';
+  width: 2rem;
+  height: 2px;
+  background: #1c1c25;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  z-index: -1;
+}
+.cid-tlV6fft9HM .container-fluid {
+  overflow: hidden;
+}
+.cid-tlV6fft9HM .order {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media (max-width: 767px) {
+  .cid-tlV6fft9HM .order {
+    flex-direction: column;
+  }
+}
+.cid-tlV6fft9HM .card-title {
+  transition: all 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-tlV6fft9HM .col-lg-x {
+    -ms-flex: 0 0 33.3%;
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+  }
+}
+@media (min-width: 600px) {
+  .cid-tlV6fft9HM .col-lg-x {
+    -ms-flex: 0 0 10%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+@media (max-width: 1600px) {
+  .cid-tlV6fft9HM .md-pb {
+    margin-bottom: 2rem;
+  }
+}
+.cid-tlV6fft9HM .number-wrapper {
+  position: relative;
+  margin: 3rem auto;
+  width: fit-content;
+}
+.cid-tlV6fft9HM .number-wrapper:before {
+  content: '';
+  width: 9999px;
+  height: 2px;
+  background: #1c1c25;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  z-index: -1;
+}
+.cid-tlV6fft9HM .number-wrapper:after {
+  content: '';
+  width: 9999px;
+  height: 2px;
+  background: #1c1c25;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  z-index: -1;
+}
+.cid-tlV6fft9HM .number-wrapper .icon-bg {
+  position: absolute;
+  overflow: visible;
+  top: 3px;
+  right: -3px;
+  box-sizing: border-box;
+  width: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+  height: 100%;
+  border-radius: 4px;
+}
+.cid-tlV6fft9HM .mbr-iconfont {
+  font-size: 6rem;
+  height: 100px;
+}
+.cid-tlV6fft9HM .icon1 {
+  color: #ffb18a;
+}
+.cid-tlV6fft9HM .icon2 {
+  color: #72dfe9;
+}
+.cid-tlV6fft9HM .icon3 {
+  color: #a8aaf1;
+}
+.cid-tlV6fft9HM .icon4 {
+  color: #ffb18a;
+}
+.cid-tlV6fft9HM .icon5 {
+  color: #72dfe9;
+}
+.cid-tlV6fft9HM .number1 {
+  background: #ffb18a;
+}
+.cid-tlV6fft9HM .number2 {
+  background: #72dfe9;
+}
+.cid-tlV6fft9HM .number3 {
+  background: #a8aaf1;
+}
+.cid-tlV6fft9HM .number4 {
+  background: #ffb18a;
+}
+.cid-tlV6fft9HM .number5 {
+  background: #72dfe9;
+}
+.cid-tlV6fft9HM .number {
+  color: #1c1c25;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.cid-tlV6fft9HM .card-text {
+  color: #616161;
+}
+.cid-tlV6fft9HM .iconfont-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 2px #1c1c25 inset;
+  border-radius: 4px;
+  min-width: 20px;
+  width: 20px;
+  align-items: center;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.cid-tlV9jITiTx {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-tlV9jITiTx img {
+  width: 100%;
+}
+.cid-tlV9jITiTx .badge {
+  display: inline-block;
+  border-radius: 10rem;
+  padding: 8px 14px 6px 14px;
+  color: #e1965f;
+  background-color: rgba(132, 138, 189, 0.15);
+  margin-bottom: 26px;
+}
+.cid-tlV9jITiTx .badge.display-4 {
+  font-size: 11px;
+  line-height: 1.81;
+  letter-spacing: 0.5px;
+}
+.cid-tlV9jITiTx .mbr-section-subtitle {
+  color: #999999;
+  font-weight: 600;
+  margin-bottom: 21px;
+}
+.cid-tlV9jITiTx .main-title {
+  margin-bottom: 36px;
+}
+.cid-tlV9jITiTx .card {
+  border-radius: 0px;
+  margin-bottom: -1px;
+}
+.cid-tlV9jITiTx .card .card-header {
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  padding: 0;
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  text-decoration: none !important;
+  margin-top: -1px;
+  line-height: normal;
+  transition: all 200ms ease-in-out;
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title:focus {
+  text-decoration: none !important;
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title h4 {
+  flex-direction: row;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #000;
+  transition: all 200ms ease-in-out;
+  margin-bottom: 16px;
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title h4 .sign {
+  padding-right: 1rem;
+  font-family: FontAwesome !important;
+  color: #848abd;
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title h4 .sign::before {
+  content: "\f077";
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title h4:hover {
+  color: #e1965f;
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title h4.display-7 {
+  font-size: 19px;
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title h4.display-7 .sign {
+  font-size: 0.8rem;
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title.collapsed {
+  transition: all 200ms ease-in-out;
+}
+.cid-tlV9jITiTx .card .card-header a.panel-title.collapsed h4 .sign:before {
+  content: "\f054";
+}
+.cid-tlV9jITiTx .card .panel-body {
+  color: #767676;
+  padding-left: 1.8rem;
+  margin-bottom: 20px;
+}
+.cid-tlV9jITiTx .card .panel-body p {
+  font-weight: 400;
+}
+@media (max-width: 992px) {
+  .cid-tlV9jITiTx .card {
+    margin-bottom: 2rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .cid-tlV9jITiTx * {
+    text-align: left;
+  }
+}
 .cid-tlPbtvjPIa {
   padding-top: 2rem;
   padding-bottom: 0rem;
