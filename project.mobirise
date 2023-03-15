@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "dangky.html",
     "theme": {
       "name": "edgem5",
       "title": "EdgeM5",
@@ -57,7 +57,7 @@
     "versionPublish": "5.7.4",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-70x70.png",
-    "mbrsiteDomain": "econtract",
+    "mbrsiteDomain": "cr3i8ifgxk",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -2122,7 +2122,7 @@
       "settings": {
         "title": "eHoadon Bkav",
         "order": "7",
-        "meta_descr": "Phần mềm hóa đơn điện tử Bkav - Đăng ký sử dụng hoặc gia hạn phần mềm hóa đơn liên hệ 0976826807"
+        "meta_descr": "Phần mềm hóa đơn điện tử Bkav - Đăng ký sử dụng hoặc gia hạn phần mềm hóa đơn liên hệ 0939 534 153"
       },
       "components": [
         {
@@ -5180,7 +5180,7 @@
       "settings": {
         "title": "Đăng ký",
         "order": "18",
-        "meta_descr": "Đăng ký sử dụng phần mềm hóa đơn điện tử, phần mềm bảo hiểm xã hội, hợp đồng điện tử, chữ ký số bkav liên hệ 0976826807",
+        "meta_descr": "Đăng ký sử dụng phần mềm hóa đơn điện tử, phần mềm bảo hiểm xã hội, hợp đồng điện tử, chữ ký số bkav liên hệ 0939 534 153",
         "socialSharingUrl": "",
         "html_before": ""
       },
@@ -6478,7 +6478,7 @@
       "settings": {
         "title": "Bkav Ivan",
         "order": "8",
-        "meta_descr": "Phần mềm hóa đơn điện tử Bkav - Đăng ký sử dụng hoặc gia hạn phần mềm hóa đơn liên hệ 0976826807"
+        "meta_descr": "Phần mềm hóa đơn điện tử Bkav - Đăng ký sử dụng hoặc gia hạn phần mềm hóa đơn liên hệ 0939 534 153"
       },
       "components": [
         {
@@ -20337,7 +20337,7 @@
       "settings": {
         "main": true,
         "title": "Trang chủ",
-        "meta_descr": "Đăng ký sử dụng dịch vụ phần mềm: Bkav ehoadon | Bkav eContract | Bkav CA | Bkav iVan liên hệ: 0976 826 807",
+        "meta_descr": "Đăng ký sử dụng dịch vụ phần mềm: Bkav ehoadon | Bkav eContract | Bkav CA | Bkav iVan liên hệ: 0939 534 153",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -23530,7 +23530,7 @@
     "san-pham-khac.html": {
       "settings": {
         "title": "Sản phẩm khác",
-        "meta_descr": "Đăng ký sử dụng dịch vụ phần mềm: Hóa đơn điện tử Bkav ehoadon | Bkav eContract | Chữ ký số Bkav CA | Bảo hiểm xã hội Bkav iVan liên hệ: 0976 826 807",
+        "meta_descr": "Đăng ký sử dụng dịch vụ phần mềm: Hóa đơn điện tử Bkav ehoadon | Bkav eContract | Chữ ký số Bkav CA | Bảo hiểm xã hội Bkav iVan liên hệ: 0939 534 153",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -24982,7 +24982,7 @@
       "settings": {
         "title": "Bkav Remote Signing",
         "order": "2",
-        "meta_descr": "Phần mềm hóa đơn điện tử Bkav - Đăng ký sử dụng hoặc gia hạn phần mềm hóa đơn liên hệ 0976826807"
+        "meta_descr": "Phần mềm hóa đơn điện tử Bkav - Đăng ký sử dụng hoặc gia hạn phần mềm hóa đơn liên hệ 0939 534 153"
       },
       "components": [
         {
